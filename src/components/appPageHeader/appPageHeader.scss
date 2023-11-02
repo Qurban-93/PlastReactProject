@@ -1,0 +1,52 @@
+.photo-header {
+    background-image: url('../../images/Rectangle2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    position: relative;
+
+
+    .text-center {
+
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+
+
+        p {
+            color: white;
+            font-size: 12px;
+            font-weight: 400;
+
+
+            a {
+                color: white;
+                text-decoration: underline !important;
+            }
+
+            i {
+                font-size: 9px;
+                margin: 0 4px;
+            }
+
+            span {
+                text-decoration: none;
+            }
+        }
+
+        h1 {
+            color: white;
+            font-weight: 700;
+            font-size: 44px;
+            text-transform: uppercase;
+
+            @media only screen and (max-width: 768px) {
+                font-size: 25px;
+            }
+        }
+    }
+
+}

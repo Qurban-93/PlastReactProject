@@ -1,0 +1,136 @@
+footer {
+
+    background-color: black;
+    padding-top: 80px;
+
+
+    hr {
+        height: 10px;
+        color: white;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .footer-section {
+
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-bottom: 80px;
+
+        p {
+
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 15px;
+        }
+
+        h2 {
+
+            margin: 10px 0 0 0;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        img {
+            width: 56px;
+
+        }
+
+        .our-activity {
+            width: 33.3%;
+
+            @media only screen and (max-width: 991px) {
+                width: 100%;
+                padding: 20px;
+
+            }
+
+            .products-text {
+
+                position: relative;
+                margin-left: 10px;
+                font-weight: 600;
+                letter-spacing: 1px;
+
+                &::before {
+                    content: '';
+                    width: 2px;
+                    height: 100%;
+                    background-color: green;
+                    left: -10px;
+                    top: 0;
+                    position: absolute;
+                }
+            }
+        }
+
+        .contact-us {
+            width: 33.3%;
+
+            @media only screen and (max-width: 991px) {
+                width: 100%;
+                padding: 20px;
+            }
+
+            .social-web-icons {
+                width: 40%;
+                display: grid;
+                grid-template-columns: repeat(4, minmax(0, 1fr));
+                gap: 5px;
+
+                i {
+                    color: white;
+                    opacity: 50%;
+                    font-size: 14px;
+                }
+            }
+        }
+
+
+        .our-space {
+
+            width: 33.3%;
+
+            @media only screen and (max-width: 991px) {
+                width: 100%;
+                padding: 20px;
+            }
+
+            p {
+
+                max-width: 80%;
+            }
+        }
+
+
+    }
+
+    .end-texts {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+        .end-text-left,
+        .end-text-right {
+            width: 45%;
+            font-size: 14px;
+            font-weight: 400;
+
+            @media only screen and (max-width: 760px) {
+                width: 100%;
+                text-align: center !important;
+            }
+
+            span {
+                font-weight: 600;
+            }
+        }
+
+        .end-text-right {
+            text-align: end;
+        }
+    }
+}

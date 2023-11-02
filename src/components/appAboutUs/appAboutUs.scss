@@ -1,0 +1,119 @@
+.section-about-us {
+
+    .text {
+        position: relative;
+
+        h1 {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-weight: 700;
+            font-size: 44px;
+            padding: 30px;
+            position: relative;
+            z-index: 99;
+            margin: 0;
+
+            span {
+                color: #00AD33;
+                z-index: 99;
+            }
+        }
+
+        img {
+            display: block;
+            position: absolute;
+            left: 50%;
+            bottom: -24px;
+            transform: translateX(-50%);
+        }
+    }
+
+    .who-are-we {
+
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+
+        .image-text {
+            width: 45%;
+            position: relative;
+
+            @media only screen and (max-width: 991px) {
+                width: 100%;
+            }
+
+            .image {
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .small-text {
+                background-color: #00AD33;
+                color: white;
+                width: 60%;
+                border-radius: 16px;
+                height: 130px;
+                padding: 10px;
+                position: absolute;
+                right: -50px;
+                bottom: -35px;
+
+                @media only screen and (max-width: 991px) {
+                    display: none;
+                }
+
+                img {
+                    position: absolute;
+                    top: -12px;
+                    left: 20px;
+                }
+
+                p {
+                    margin: 0 0 10px 0;
+                    font-size: 14px;
+                    font-weight: 400;
+
+
+                }
+
+                h3 {
+                    font-size: 14px;
+                    font-weight: 700;
+
+                }
+            }
+        }
+
+        .desc {
+
+            width: 45%;
+
+            @media only screen and (max-width: 991px) {
+                width: 100%;
+            }
+
+            h2 {
+                font-weight: 700;
+                font-size: 32px;
+                padding: 10px 0;
+
+                span {
+                    color: #00AD33;
+                }
+            }
+
+
+            p {
+                color: #4D504B;
+                font-size: 14px;
+            }
+
+
+        }
+    }
+}

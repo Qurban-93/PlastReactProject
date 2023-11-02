@@ -1,0 +1,30 @@
+{
+    "nav-element": {
+        "mainPage": "Ana səhifə",
+        "weBuy": "Alırıq",
+        "ourProducts": "Məhsullarımız",
+        "devices": "Cihazlar",
+        "aboutUs": "Haqqımızda",
+        "contact": "Əlaqə"
+    },
+    "appApply": {
+        "mainText": "TƏBİƏTƏ ATMAYAQ !",
+        "smallText": "DAHA GÖZƏL GƏLƏCƏK ÜÇÜN",
+        "applyBtn": "Müraciət et"
+    },
+    "applyModal": {
+        "categories": {
+            "Kagiz": "Kagiz",
+            "Karton": "Karton",
+            "A4": "A4"
+        },
+        "weight": "Çəkisi",
+        "fullName": "Ad Soyad",
+        "contactPhone": "Əlaqə nömrəniz",
+        "applyBtn": "Müraciət et"
+    },
+    "weBuy": {
+        "headTextFirstPart": "Biz",
+        "headTextSecondPart": "Alırıq"
+    }
+}

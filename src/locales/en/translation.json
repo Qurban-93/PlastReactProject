@@ -1,0 +1,30 @@
+{
+    "nav-element": {
+        "mainPage": "Main Page",
+        "weBuy": "We Buy",
+        "ourProducts": "Our Products",
+        "devices": "Devices",
+        "aboutUs": "About Us",
+        "contact": "Contact"
+    },
+    "appApply": {
+        "mainText": "LET'S NOT THROW IT INTO NATURE!",
+        "smallText": "FOR A MORE BEAUTIFUL FUTURE",
+        "applyBtn": "apply"
+    },
+    "applyModal": {
+        "categories": {
+            "Kagiz": "Paper",
+            "Karton": "Cardboard",
+            "A4": "A4"
+        },
+        "weight": "Weight",
+        "fullName": "Name Surname",
+        "contactPhone": "Contact number",
+        "applyBtn": "Apply"
+    },
+    "weBuy": {
+        "headTextFirstPart": "We",
+        "headTextSecondPart": "Buy"
+    }
+}

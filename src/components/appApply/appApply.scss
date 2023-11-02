@@ -1,0 +1,45 @@
+.apply-section {
+    background-image: url('../../images/Rectangle\ 1.jpg');
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+
+    .text {
+        width: 60%;
+        margin: auto;
+        color: white;
+        text-align: center;
+
+        @media only screen and (max-width: 991px) {
+            width: 95%;
+        }
+
+        h1 {
+            font-weight: 700;
+            margin-bottom: 30px;
+            margin-top: 10px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        a {
+            background-color: #00AD33;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: white;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin: 0;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+    }
+}

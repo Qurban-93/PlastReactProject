@@ -1,0 +1,217 @@
+.our-products {
+
+    background-color: black;
+
+    .text-title {
+
+        text-align: center;
+
+        img {
+            display: block;
+            margin: auto;
+
+        }
+
+        h1 {
+            padding: 30px;
+            font-weight: 700;
+            background-color: white;
+            margin: 0;
+        }
+
+        span {
+            color: #00AD33;
+        }
+    }
+
+    .products {
+        background-color: black;
+        padding: 30px 0;
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .product {
+
+        img {
+            width: 55px;
+        }
+
+        h5 {
+            margin-top: 20px;
+            font-size: 13px;
+            font-weight: 700;
+            color: white;
+            letter-spacing: 1px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            color: #fff;
+        }
+
+        span {
+            color: white;
+            margin-left: 5px;
+            font-size: 10px;
+        }
+
+        a {
+            background-color: #00AD33;
+            color: white;
+            font-size: 12px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+    }
+
+    .carousel-control {
+
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
+        margin-top: 10px;
+
+        .arrows {
+
+            width: 10%;
+
+            i {
+                color: white;
+                margin: 0 5px;
+                cursor: pointer;
+            }
+        }
+
+        .line {
+            height: 2px;
+            background-color: white;
+            width: 80%;
+            margin: auto;
+
+            @media only screen and (max-width: 770px) {
+                width: 60%;
+            }
+
+            @media only screen and (max-width: 490px) {
+                display: none;
+            }
+        }
+
+        .circles {
+
+            width: 9%;
+
+            i {
+                font-size: 5px;
+                margin: 0 1px;
+                color: white;
+                margin-bottom: 10px;
+            }
+        }
+
+    }
+
+
+    .slick-slide {
+        width: 200px;
+        height: 250px;
+    }
+
+    .slick-prev {
+        left: -20px;
+
+        @media only screen and (max-width: 490px) {
+            left: 0px;
+        }
+    }
+
+    .slick-next {
+        left: 20px;
+
+        @media only screen and (max-width: 490px) {
+            left: 40px;
+        }
+    }
+
+
+    .slick-active {
+        width: 1rem;
+    }
+
+    .slick-dots {
+
+        width: 18%;
+        position: absolute;
+        right: -25px;
+        bottom: -32px;
+
+        @media only screen and (max-width: 770px) {
+            width: 25%;
+        }
+
+        @media only screen and (max-width: 490px) {
+            width: 65%;
+        }
+
+        li {
+            padding: 0;
+            margin: 0;
+
+            button {
+
+                &::before {
+                    color: white;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .slick-next,
+    .slick-prev {
+
+        &::before {
+            font-family: "";
+            font-size: 30px;
+            position: absolute;
+            bottom: -147px;
+        }
+
+        z-index: 99;
+    }
+
+
+
+    /* Стили для контейнера точек */
+    .custom-dots-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Стили для самих точек */
+    .custom-dot {
+        width: 10px;
+        height: 10px;
+        margin: 0 5px;
+        background: #ccc;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .custom-dot.active {
+        background: #ff0000;
+        /* Цвет активной точки */
+    }
+
+
+
+
+}
